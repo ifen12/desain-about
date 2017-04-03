@@ -1,0 +1,279 @@
+html, body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  font-family: sans-serif;
+  text-align: center;
+  font-weight: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+
+h2 { color:#fff;}
+
+ul { list-style: none; }
+
+
+.pagination {
+  width: 30px;
+  height: auto;
+  position: fixed;
+  top: 50%;
+  right: 5px;
+  padding: 40px 0;
+  margin-top: -100px;
+}
+
+.pagination a {
+  width: 25px;
+  height: 25px;
+  display: block;
+  line-height: 28px;
+  text-align: center;
+  padding-left: 3px;
+}
+
+.pagination a:after {
+  content: "";
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  display: inline-block;
+  background: rgba(0,0,0,.5);
+  -webkit-transition: background .3s ease;
+  -moz-transition: background .3s ease;
+  -ms-transition: background .3s ease;
+  -o-transition: background .3s ease;
+  transition: background .3s ease;
+}
+
+.pagination a.active:after { background: #263238 ; }
+
+.item h2 {
+  margin: 0;
+  padding: 20px 0;
+}
+
+.goto {
+  display: block;
+  position: absolute; 
+  left: 50%;
+  margin-top: -20px;
+  margin-left: -50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.item1 { background-color: #3dd0ac; }
+
+.item1 .step1 {
+  position: absolute;
+  top: 340px;
+  left: 350px;  
+}
+
+.item1 .step2 {
+  position: absolute;
+  top: 290px;
+  left: 350px;  
+}
+
+.item1 .step3 {
+  position: absolute;
+  top: 390px;
+  left: 350px;  
+}
+
+.item1 .step4 {
+  position: absolute;
+  top: 440px;
+  left: 350px;  
+}
+
+.item1 .step5 {
+  position: absolute;
+  top: 490px;
+  left: 350px;  
+}
+
+.item1 .step6 {
+  position: absolute;
+  top: 340px;
+  left: 550px;  
+}
+
+.item2 .step1 {
+  position: absolute;
+  top: 150px;
+  right: 5%;
+}
+
+.item3 .step1 {
+  position: absolute;
+  top: 100px;
+  left: 19%;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  background-color: rgb(178, 79, 65);
+  border-radius: 50%;
+}
+
+.item3 .step2 {
+  position: absolute;
+  bottom: 100px;
+  right: 19%;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  background-color: rgb(52, 178, 89);
+}
+
+.item5 .step1 {
+  position: absolute;
+  bottom: 100px;
+  left: 27%;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #eceff1;
+}
+
+.item5 .step2 {
+  position: absolute;
+  bottom: 250px;
+  left: 27%;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #eceff1;
+}
+
+.item5 .step3 {
+  position: absolute;
+  bottom: 400px;
+  left: 27%;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #eceff1;
+}
+
+.item5 .step4 {
+  position: absolute;
+  bottom: 100px;
+  right: 25%;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #eceff1;
+}
+
+.item5 .step5 {
+  position: absolute;
+  bottom: 250px;
+  right: 25%;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #eceff1;
+}
+
+.item5 .step6 {
+  position: absolute;
+  bottom: 400px;
+  right: 25%;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #eceff1;
+}
+
+.item5 .step7 {
+  position: absolute;
+  bottom: 100px;
+  left: 80px;
+  text-align: right;  
+}
+
+.item5 .step8 {
+  position: absolute;
+  bottom: 250px;
+  left: 80px;
+  text-align: right;  
+}
+
+.item5 .step9 {
+  position: absolute;
+  bottom: 400px;
+  left: 80px;
+  text-align: right;  
+}
+
+.item5 .step10 {
+  position: absolute;
+  bottom: 100px;
+  right: 60px;
+  text-align: left;  
+}
+
+.item5 .step11 {
+  position: absolute;
+  bottom: 250px;
+  right: 60px;
+  text-align: left;  
+}
+
+.item5 .step12 {
+  position: absolute;
+  bottom: 400px;
+  right: 60px;
+  text-align: left;  
+}
+
+span{
+  color: #ff9100;
+}
+
+#social{
+  width:240px;
+  margin:0 auto;
+}
+.social{
+  min-height:37px;
+  min-width:40px;
+  float:left;
+  margin-left:10px;
+  margin-right:10px;
+}
+.twitter{
+  background:url(../img/contak/twitter.png) no-repeat;
+  background-position: center 0;
+}
+.facebook{
+  background:url(../img/contak/facebook.png) no-repeat;
+  background-position: center 0;
+}
+.google{
+  background:url(../img/contak/google.png) no-repeat;
+  background-position: center 0;
+}
+.dribbble{
+  background:url(../img/contak/dribbble.png) no-repeat;
+  background-position: center 0;
+}
+.github{
+  background:url(../img/contak/github.png) no-repeat;
+  background-position: center 0;
+}
+.twitter:hover, .facebook:hover, .google:hover, .dribbble:hover, .github:hover{
+  background-position: center -37px;
+}
